@@ -1,0 +1,50 @@
+{
+  "metrics_at_0.5": {
+    "Logistic Regression": {
+      "accuracy": 0.9835,
+      "precision": 0.9772951628825272,
+      "recall": 0.99,
+      "f1": 0.9836065573770492,
+      "roc_auc": 0.9984059999999999
+    },
+    "Random Forest": {
+      "accuracy": 0.996,
+      "precision": 0.9930417495029821,
+      "recall": 0.999,
+      "f1": 0.996011964107677,
+      "roc_auc": 0.9996295000000001
+    }
+  },
+  "best_thresholds": {
+    "Logistic Regression": {
+      "threshold": 0.51,
+      "f1": 0.9855649576903932
+    },
+    "Random Forest": {
+      "threshold": 0.53,
+      "f1": 0.9975012493753124
+    }
+  },
+  "confusion_matrices": {
+    "Logistic Regression": [
+      [
+        977,
+        23
+      ],
+      [
+        10,
+        990
+      ]
+    ],
+    "Random Forest": [
+      [
+        993,
+        7
+      ],
+      [
+        1,
+        999
+      ]
+    ]
+  }
+}

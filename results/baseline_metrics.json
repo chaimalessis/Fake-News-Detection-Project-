@@ -1,0 +1,43 @@
+{
+  "rows": 44898,
+  "remove_leakage": false,
+  "deduplicated": false,
+  "accuracy": 0.987750556792873,
+  "confusion_matrix": [
+    [
+      4642,
+      68
+    ],
+    [
+      42,
+      4228
+    ]
+  ],
+  "report": {
+    "0": {
+      "precision": 0.9910333048676345,
+      "recall": 0.9855626326963907,
+      "f1-score": 0.9882903981264637,
+      "support": 4710.0
+    },
+    "1": {
+      "precision": 0.984171322160149,
+      "recall": 0.9901639344262295,
+      "f1-score": 0.9871585337380341,
+      "support": 4270.0
+    },
+    "accuracy": 0.987750556792873,
+    "macro avg": {
+      "precision": 0.9876023135138918,
+      "recall": 0.9878632835613101,
+      "f1-score": 0.9877244659322488,
+      "support": 8980.0
+    },
+    "weighted avg": {
+      "precision": 0.9877704244488189,
+      "recall": 0.987750556792873,
+      "f1-score": 0.9877521953493372,
+      "support": 8980.0
+    }
+  }
+}
